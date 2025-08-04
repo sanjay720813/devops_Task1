@@ -34,4 +34,3 @@ jobs:
 
     - name: Push Docker image
       run: docker push sanjay1207/nodejs-demo-app:latest
-
