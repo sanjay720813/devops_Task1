@@ -30,8 +30,8 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker image
-      run: docker build -t ${{ sanjay1207 }}/nodejs-demo-app .
+      run: docker build -t sanjay1207/nodejs-demo-app:latest .
 
     - name: Push Docker image
-      run: docker push ${{ sanjay1207 }}/nodejs-demo-app
+      run: docker push sanjay1207/nodejs-demo-app:latest
 
